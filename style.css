@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "opensans";
+    src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "slabo";
+    src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+  }
+
+  body {
+    background-image: url(/img/fond.png);
+    margin: 0;
+    padding: 0;
+    font-family: "opensans";
+  }
+
+  h2,
+  h4,
+  h5,
+  nav,
+  button {
+    font-family: "slabo"; 
+    font-weight: lighter; 
+  }
+
+  /* header */
+  header {
+    background-color: #25b3b4;
+    font-family:"slabo";
+    text-align: center;
+    margin-top: 50px;
+    border-top: solid #2b9aa0 5px;
+    border-bottom: solid #2b9aa0 5px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: larger;
+    color: aliceblue;
+    font-weight:bold;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    list-style: none; 
+  }
+
+
+  /* main */
+  main {
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 1100px;
+  }
+
+/*section1*/
+#section1 {
+    width: 50%;
+    text-align: center;
+    color: #454a54;
+    margin: 50px auto 0;
+  }
+
+  #section1 h2 {
+    margin: 20px;
+    font-size:xx-large;
+  }
+
+  #section1 p {
+    margin-bottom: 20px;
+    font-family: "opensans";
+  }
+
+  /* section2 */
+  #section2 {
+    width: 65%;
+    padding: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #b6dedc;
+    text-align: center;
+  }
+
+  #section2 h2 {
+    font-size:3.5em;
+    padding: 0;
+    margin: 0;
+  }
+
+  article i,
+  section h2 > span {
+    color: #25b3b4;
+  }
+
+  
+  article {
+    width: 40%;
+    display: inline-block;
+    text-align: justify;
+    color: rgb(61, 59, 59);
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  
+  article img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+  }
+  
+  article h4 {
+    color: rgb(61, 59, 59);
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px auto;
+  }
+
+  #article2 {
+    margin-left:15px;
+  }
+   
+
+  /* buttons read more in articles */
+  button {
+    background-color: #25b3b4;
+    padding: 10px;
+    border: none;
+    float: right;
+    color: white;
+  }
+
+  /* aside */
+  aside {
+    width: 24%;
+    display: inline-block;
+    background-color: #34b1b2;
+    border: 5px solid #2b9aa0;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    vertical-align: top;
+    color: white;
+    position: relative;
+  }
+  
+  aside h4 {
+    font-size: 1.4em;
+  }
+  aside h5 {
+    font-size: 1.2em;
+  }
+
+  h4 span,
+  h5 {
+  color: #b6dedc;
+  }
+  
+  aside img {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+  }
+
+  /* footer */
+footer {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  footer img {
+    width: 50px;
+    height:50px;
+  }
+
+
+  
+
+
